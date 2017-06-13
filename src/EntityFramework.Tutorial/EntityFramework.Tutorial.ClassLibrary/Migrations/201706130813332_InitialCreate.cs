@@ -1,4 +1,4 @@
-namespace ClassLibrary3.Migrations
+namespace EntityFramework.Tutorial.ClassLibrary.Migrations
 {
     using System;
     using System.Data.Entity.Migrations;

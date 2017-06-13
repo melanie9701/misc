@@ -1,6 +1,6 @@
 ﻿using System.Data.Entity;
 
-namespace ClassLibrary3
+namespace EntityFramework.Tutorial.ClassLibrary
 {
     public class BlogContext : DbContext
     {
@@ -11,5 +11,9 @@ namespace ClassLibrary3
     {
         public int BlogId { get; set; }
         public string Name { get; set; }
+
+        public string Blah { get; set; }
+
+        public string Blub { get; set; }
     }
 }
